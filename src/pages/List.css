@@ -1,0 +1,20 @@
+.list {
+    margin: 56px 0px 0px 0px;
+    width: 100%;
+}
+
+.filter-wrapper {
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #b0afad;
+}
+
+.filter-title {
+    padding: 15px;
+    border-bottom: 1px solid #b0afad;
+}
+
+.filter-title h3 {
+    margin: 5px 0px;
+}
+

@@ -1,0 +1,115 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('./2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 1500ms ease;
+}
+
+.sl-active {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1500ms;
+    transform: scale(0.95);
+}
+
+.img-wrapper {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 10vw;
+    top: calc(50% - 150px);
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-information {
+    margin: 20px 5px;
+    position: absolute;
+    left: 12%;
+    top: 15vh;
+    width: 40vw;
+    height: 70vh;
+}
+
+.slider-infor {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    background: rgba(176, 175, 173, 0.3);
+    border-radius: 30px;
+}
+
+.slider-description {
+    margin: 20px 0px;
+    font-size: 1.05rem;
+}
+
+.slider-money {
+    margin-top: 30px;
+    color: red;
+}
+
+.slider-link {
+    display: block;
+    color: #fff;
+    margin: 15px 30px;
+}
+
+.next {
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 20px;
+}
+
+.prev {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 20px;
+}
+
+.next-btn, .prev-btn {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: none;
+}
+
+.dots {
+    position: absolute;
+    left: calc(50% - 135px);
+    bottom: 20px;
+}
+
+.dot-icon {
+    margin: 0px 7px;
+}
+
+.dot-btn {
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(176, 175, 173, 0.4);
+}
+
+.dot-active .dot-btn{
+    background: #fff;
+}
